@@ -74,6 +74,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
+    //if user choose from navigation drawer
     public void displaySelectedListner(int itemId){
         Fragment fragment = null;
         switch (itemId){
